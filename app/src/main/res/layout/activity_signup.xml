@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/img_back"
+                android:layout_width="54dp"
+                android:layout_height="48dp"
+                android:padding="14dp"
+                android:layout_marginLeft="10dp"
+                app:srcCompat="@mipmap/ic_launcher"
+
+                />
+            <ImageView
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="1dp"
+                app:srcCompat="@mipmap/ic_launcher"
+                tools:ignore="VectorDrawableCompat" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="24dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="6dp"
+                android:orientation="vertical">
+
+
+
+                <EditText
+                    android:id="@+id/ed_lastname"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Name"
+                    android:imeOptions="actionNext"
+                    />
+
+
+                <EditText
+                    android:id="@+id/ed_mobile"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="number"
+                    android:maxLength="10"
+                    />
+
+                <EditText
+                    android:id="@+id/ed_email"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="textEmailAddress" />
+
+                <!--  <EditText
+                      android:id="@+id/ed_password"
+                     android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                      android:hint="Password"
+                      android:imeOptions="actionNext"
+                      android:inputType="textPassword"
+
+                      />-->
+
+                <LinearLayout
+                    android:layout_marginTop="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <EditText
+                        android:layout_weight="1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/ed_password"
+                        android:textColor="@color/white"
+                        android:backgroundTint="@color/white"
+                        android:layout_marginRight="20dp"
+                        android:hint="Password"
+                        android:imeOptions="actionNext"
+                        android:inputType="textPassword" />
+                    <ImageView
+                        android:id="@+id/im_password_hide_show"
+                        android:layout_marginLeft="-60dp"
+                        app:srcCompat="@drawable/ic_password_visible_gone"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_marginTop="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <EditText
+                        android:layout_weight="1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/ed_conformpass"
+                        android:textColor="@color/white"
+                        android:backgroundTint="@color/white"
+                        android:layout_marginRight="20dp"
+                        android:imeOptions="actionNext"
+                        android:inputType="textPassword" />
+                    <ImageView
+                        android:id="@+id/im_password_hide_show_2"
+                        android:layout_marginLeft="-60dp"
+                        app:srcCompat="@drawable/ic_password_visible_gone"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                </LinearLayout>
+
+
+                <Button
+                    android:id="@+id/bt_createaccount"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_margin="20dp"
+                    android:gravity="center"
+                    android:text="signup" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

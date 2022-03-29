@@ -4,6 +4,12 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Users/S545513/AndroidStudioProjects/E-Shopping/app/src/main/res/layout/activity_main.xml" value="0.1796875" />
+<<<<<<< HEAD
+=======
+        <entry key="..\:/Users/S545513/AndroidStudioProjects/E-Shopping/app/src/main/res/layout/activity_signup.xml" value="0.1796875" />
+        <entry key="..\:/Users/S545513/AndroidStudioProjects/E-Shopping/app/src/main/res/layout/activity_splash.xml" value="0.1796875" />
+        <entry key="..\:/Users/S545513/AndroidStudioProjects/E-Shopping/app/src/main/res/layout/item_home.xml" value="0.1" />
+>>>>>>> 10cdf02a19f4872f87064073dd1f6ae36af000fb
         <entry key="..\:/Users/S545518/Documents/GitHub/E-Shopping/app/src/main/res/layout/activity_home.xml" value="0.1796875" />
         <entry key="..\:/Users/S545518/Documents/GitHub/E-Shopping/app/src/main/res/layout/activity_login.xml" value="0.1796875" />
         <entry key="..\:/Users/S545518/Documents/GitHub/E-Shopping/app/src/main/res/layout/activity_main.xml" value="0.1796875" />

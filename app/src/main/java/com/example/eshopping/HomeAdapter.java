@@ -3,6 +3,7 @@ package com.example.eshopping;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Context;
+import android.content.Intent;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -41,6 +42,16 @@ public class HomeAdapter extends RecyclerView.Adapter<HomeAdapter.ViewHolder> {
 
         holder.tvName.setText(fruitsModel.getTitle());
         holder.iv.setImageResource(fruitsModel.getIcon());
+
+        holder.itemView.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(mContext, CartActivity.class);
+                intent.putExtra("name", fruitsModel.getTitle());
+                mContext.startActivity(intent);
+
+            }
+        });
 
     }
 

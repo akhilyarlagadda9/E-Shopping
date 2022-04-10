@@ -15,7 +15,7 @@ public class HomeActivity extends AppCompatActivity {
     HomeAdapter homeAdapter;
     ArrayList<String> arraylist1= new ArrayList<String>();
     Context mContext;
-    int[] icons = {R.mipmap.ic_launcher, R.mipmap.ic_launcher, R.mipmap.ic_launcher, R.mipmap.ic_launcher, R.mipmap.ic_launcher};
+    int[] icons = {R.drawable.ic_apple, R.drawable.ic_banana, R.drawable.ic_orange, R.drawable.ic_mango, R.drawable.ic_lemon};
     String[] names = {"Apple", "Banana", "Orange", "Mango","Lemon"};
 
     @Override

@@ -5,7 +5,7 @@ An online store may also be called an e-web-store, e-shop, e-store, Internet sho
 
 #### LOGO
 
-|<img src="https://github.com/akhilyarlagadda9/E-Shopping/blob/main/screenshots/Screenshot_20220419_202208.png?raw=true" width="216" height="384" /> |
+|<img src="https://github.com/akhilyarlagadda9/E-Shopping/blob/main/app/src/main/res/drawable/androidlogo.png?raw=true" width="216" height="384" /> |
 
 
 

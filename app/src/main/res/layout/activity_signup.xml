@@ -48,7 +48,7 @@
 
                 <EditText
 
-                    android:id="@+id/ed_lastname"
+                    android:id="@+id/ed_name"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:hint="Name"

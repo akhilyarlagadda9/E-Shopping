@@ -32,9 +32,6 @@ public class HomeActivity extends AppCompatActivity {
             fruitsList.add(menu);
         }
 
-
-
-
         recyclerView= findViewById(R.id.rv);
         homeAdapter = new HomeAdapter(mContext,fruitsList);
         LinearLayoutManager manager = new LinearLayoutManager(HomeActivity.this, LinearLayoutManager.VERTICAL, false);

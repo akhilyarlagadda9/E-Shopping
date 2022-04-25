@@ -9,6 +9,7 @@ import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+
 import com.example.eshopping.utils.Validaters;
 
 public class SignUpActivity extends AppCompatActivity {

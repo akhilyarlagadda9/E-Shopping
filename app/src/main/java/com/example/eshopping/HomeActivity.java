@@ -18,6 +18,5 @@ public class HomeActivity extends AppCompatActivity {
         LinearLayoutManager manager = new LinearLayoutManager(HomeActivity.this, LinearLayoutManager.VERTICAL, false);
         recyclerView.setLayoutManager(manager);
         recyclerView.setAdapter(homeAdapter);
-
     }
 }

@@ -13,9 +13,7 @@ public class SplashActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_splash);
         splash();
-
     }
-
     private void splash() {
         final boolean _active = true;
         final int _splashTime = 1000;
@@ -36,7 +34,7 @@ public class SplashActivity extends AppCompatActivity {
                     e.printStackTrace();
                 } finally {
 
-                    Intent intent = new Intent(mContext, LoginActivity.class);
+                    Intent intent = new Intent(getApplicationContext(), LoginActivity.class);
                     startActivity(intent);
                     finish();
                 }

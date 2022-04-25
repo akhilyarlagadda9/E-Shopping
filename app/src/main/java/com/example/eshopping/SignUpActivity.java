@@ -14,6 +14,7 @@ import com.example.eshopping.utils.Validaters;
 public class SignUpActivity extends AppCompatActivity {
     TextView createAcc;
     EditText ed_name, ed_mobile, ed_email, ed_password;
+    
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

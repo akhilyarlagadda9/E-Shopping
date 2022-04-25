@@ -12,6 +12,7 @@ import androidx.appcompat.app.AppCompatActivity;
 public class LoginActivity extends AppCompatActivity {
     private TextView  bt_submit,signup_free;
     EditText ed_mobile_number,ed_repassword;
+    
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

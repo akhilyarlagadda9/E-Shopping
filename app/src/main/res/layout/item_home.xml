@@ -19,8 +19,8 @@
 
             <ImageView
                 android:id="@+id/iv"
-                android:layout_width="20dp"
-                android:layout_height="20dp"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
                 app:srcCompat="@drawable/androidlogo" />
             <TextView
                 android:layout_weight="1"

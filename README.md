@@ -30,8 +30,13 @@ An online store may also be called an e-web-store, e-shop, e-store, Internet sho
 - Registry: external.system.auto.import.disabled=true
 - Non-Bundled Plugins: org.jetbrains.kotlin (211-1.6.10-release-923-AS7442.40)
 
+## Installation
 
-## WIDGETS
+ 1. Clone or download the project into your Android Studio 3.0.0 
+ 2. You need the /libs folder for proper functioning. **DON'T REMOVE LIBS FOLDER.**
+
+
+## Snapshots
 
 |<img src="https://github.com/akhilyarlagadda9/E-Shopping/blob/main/screenshots/Screenshot_20220419_200516.png?raw=true" width="216" height="384" /> |<img src="https://github.com/akhilyarlagadda9/E-Shopping/blob/main/screenshots/Screenshot_20220419_200601.png?raw=true" width="216" height="384" />|<img src="https://github.com/akhilyarlagadda9/E-Shopping/blob/main/screenshots/Screenshot_20220419_200613.png?raw=true" width="216" height="384" />|<img src="https://github.com/akhilyarlagadda9/E-Shopping/blob/main/screenshots/Screenshot_20220419_200847.png?raw=true" width="216" height="384" />|<img src="https://github.com/akhilyarlagadda9/E-Shopping/blob/main/screenshots/Screenshot_20220419_202208.png?raw=true" width="216" height="384" />
 

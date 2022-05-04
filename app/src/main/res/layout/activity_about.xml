@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical">
+    android:orientation="horizontal">
 
 
     <TextView
@@ -17,5 +17,8 @@
         android:padding="6dp"
         android:text="Connecting millions of smart shoppers and sellers around the country
 
-Picknhook is a new and fast emerging online shopping site in india for all segments of people, its commitment to deliver smiles - on time and every time, its mission is to be india’s trusted destination for discovering quality products at the most competitive price tag." />
+Picknhook is a new and fast emerging online shopping site in india for all segments of people, its commitment to deliver smiles - on time and every time, its mission is to be india’s trusted destination for discovering quality products at the most competitive price tag."
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:textSize="16sp"
+        android:typeface="monospace" />
 </LinearLayout>

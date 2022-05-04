@@ -21,6 +21,7 @@
 
         <activity
             android:name=".HomeActivity"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar"
             android:configChanges="orientation|keyboard|keyboardHidden|screenSize"
             android:screenOrientation="portrait"
             android:windowSoftInputMode="stateHidden|adjustResize" />
@@ -41,6 +42,17 @@
             android:screenOrientation="portrait"
             android:windowSoftInputMode="stateHidden|adjustResize" />
 
+        <activity
+            android:name=".AboutUsActivity"
+            android:configChanges="orientation|keyboard|keyboardHidden|screenSize"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden|adjustResize" />
+
+        <activity
+            android:name=".OrderDetailsActivity"
+            android:configChanges="orientation|keyboard|keyboardHidden|screenSize"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden|adjustResize" />
     </application>
 
 </manifest>

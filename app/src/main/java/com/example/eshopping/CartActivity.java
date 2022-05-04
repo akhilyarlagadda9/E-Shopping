@@ -9,10 +9,11 @@ import android.widget.Toast;
 
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
+
 public class CartActivity extends AppCompatActivity {
     String name;
     ImageView iv;
-    TextView tvName,tvPlaceOrder;
+    TextView tvName, tvPlaceOrder;
 
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
@@ -42,9 +43,9 @@ public class CartActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Toast.makeText(getApplicationContext(),"Order Placed",Toast.LENGTH_LONG).show();
-                Intent intent = new Intent(getApplicationContext(),HomeActivity.class);
-               startActivity(intent);
-               finish();
+                Intent intent = new Intent(getApplicationContext(), OrderDetailsActivity.class);
+                intent.putExtra("name", name);
+                startActivity(intent);
             }
         });
 

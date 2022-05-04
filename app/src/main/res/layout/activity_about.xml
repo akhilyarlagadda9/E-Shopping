@@ -13,7 +13,9 @@
         android:id="@+id/tvPlaceOrder"
         android:layout_margin="6dp"
         android:padding="6dp"
-        android:text=""
+        android:text="Connecting millions of smart shoppers and sellers around the country
+
+Picknhook is a new and fast emerging online shopping site in india for all segments of people, its commitment to deliver smiles - on time and every time, its mission is to be india’s trusted destination for discovering quality products at the most competitive price tag."
         android:layout_width="match_parent"
         android:layout_height="wrap_content"/>
 </LinearLayout>

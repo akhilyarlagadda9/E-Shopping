@@ -1,21 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    >
-
+    android:orientation="vertical">
 
 
     <TextView
         android:id="@+id/tvPlaceOrder"
-        android:layout_margin="6dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="50dp"
         android:padding="6dp"
         android:text="Connecting millions of smart shoppers and sellers around the country
 
-Picknhook is a new and fast emerging online shopping site in india for all segments of people, its commitment to deliver smiles - on time and every time, its mission is to be india’s trusted destination for discovering quality products at the most competitive price tag."
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"/>
+Picknhook is a new and fast emerging online shopping site in india for all segments of people, its commitment to deliver smiles - on time and every time, its mission is to be india’s trusted destination for discovering quality products at the most competitive price tag." />
 </LinearLayout>
